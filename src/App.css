@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: blue;
+}
+
+#newFlight {
+  cursor: pointer;
 }
 
 .App-logo {
